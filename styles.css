@@ -1,0 +1,162 @@
+
+body{
+    font-family:monospace;	
+	
+}
+#title{
+	background-color:#e7305b;
+	color:#fff;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:cursive;
+}
+h2{
+	font-size:3rem;
+	line-height:1.5;
+	text-align:center;
+}
+h3{
+	
+	color:bold;
+	text-align:center;
+	
+}
+p{
+	
+	margin:0 30px;
+	color:#8f8f8f;
+	text-align:center;
+	
+}
+button{
+	text-align:center;
+	
+}
+.big-heading{
+	font-family:cursive;
+	font-size:3.5rem;
+	line-height:1.5;
+	
+}
+.wrapper{
+	text-align:center;
+	padding:5%;
+}
+.container-fluid{
+	padding:3% 15% 7%;
+}
+.navbar{
+	padding-bottom:0 0 4.5rem;
+}
+.navbar-brand{
+	font-family:courier;
+	font-size:2rem;
+	font-weight:bold;
+}
+.nav-item{
+	padding:0 18px;
+}
+.nav-link{
+	font-size:1.2rem;
+	font-family:sans-serif;
+}
+.download-button{
+	
+	margin:3% 5% 3% 0;
+	
+}
+.title-image{
+	
+	margin:30px 0 0 80px;
+	width:60%;
+	transform:rotate(25deg);
+	position:absolute;
+	right:30%;
+	
+}
+.center{
+	display:block;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1rem;
+}
+
+#features{
+	  padding:7% 15%;
+	  background-color:#fff;
+	  position:relative;
+	 
+}
+.features-box{
+	text-align:center;
+	padding:45%;
+}
+#testimonials{
+	text-align:center;
+	background-color:#ef8172;
+	color:#fff;
+}
+.testimonial-image{
+	width:20%;
+	border-radius:100%;
+	margin:20px;	
+}
+#press{
+	background-color:#ef8172;
+     text-align:center;
+	 padding-bottom:3%;
+}
+.press-logo{
+	width:15%;
+	margin:20px 20px 50px;
+}
+.carousel-item{
+	padding:7% 15%;
+	
+}
+#pricing{
+	padding:100px;
+}
+.pricing-column{
+	padding:2% 3%;
+}
+#cta{
+	background-color:#e7305b;
+	padding:7% 15%;
+	font-family:courier;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	
+}
+.cta-heading{
+	font-family:cursive;
+	font-size:3.5rem;
+	line-height:1.5;
+}
+#footer{
+	padding:7% 15%;
+	text-align:center;
+	
+}
+.download-btn{
+	
+	margin:30px;
+	
+}
+.social-icon{
+	margin:20px 10px;
+}
+
+
+@media(max-width:922px){
+	#title{
+		text-align:center;
+	}
+	.title-image{
+		position:static;
+		transform:rotate(0);
+	}
+}
+
